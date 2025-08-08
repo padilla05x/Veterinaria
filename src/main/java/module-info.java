@@ -6,4 +6,6 @@ module co.edu.uniquindio.veterinaria {
 
     opens co.edu.uniquindio.veterinaria to javafx.fxml;
     exports co.edu.uniquindio.veterinaria;
+    exports co.edu.uniquindio.veterinaria.controller;
+    opens co.edu.uniquindio.veterinaria.controller to javafx.fxml;
 }
